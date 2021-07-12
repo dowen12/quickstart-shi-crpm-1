@@ -171,7 +171,7 @@
         },
         "Description": "Configures a Cloud9 instance",
         "Handler": "index.handler",
-        "Runtime": "nodejs10.x",
+        "Runtime": "nodejs14.x",
         "Timeout": 300
       },
       "Metadata": {
@@ -204,7 +204,7 @@
     "CDKMetadata": {
       "Type": "AWS::CDK::Metadata",
       "Properties": {
-        "Analytics": "v2:deflate64:H4sIAAAAAAAAAzWPQW4CMQxFz8I+BJhNxa7SFKSuiuAExvFIgYldOQ4sRnN3xlRd2f5f79vexf1H3K4+4VnXmO6bCUUpThcDvId+4BMoFDJSH36a/TYLvXA1bWiunalKUyTvFyNly8Jz8LwJR2lpHxfnwI+swoXYDn0XMpQ4OSzjG/xeAoGRTipDHmkOtRbHvgSbM2GEck3g0rEx+orwDh9EC/joVt+qSfk/aJ4DS6J4q5vHbhu7bnnzVnNea2PLheL5r74Aaj6SKwIBAAA="
+        "Analytics": "v2:deflate64:H4sIAAAAAAAAEzWOwW4CMQxEv4V7CGxVCXGrtIDEqYh+get4pcDGRolND6v9966perJnRm/sLu53cbv6gJ+2xnTfTCiV4vSlgPfQD3yBCoWUqotP04dp6IWbVkN170pNrCL5vgQpaxaeg/dNOIqlfVySIz9zFS7EeuzfQoYSJ4dlfIHnpRAY6VJlyCPNobXi2EHQnAkjlO8Ebp2M0U+EV/kgtYBLj3prKuX/oXkOLInirW2e3XvsdrFb3VrO62qsuVC8/s1fxHw1gAIBAAA="
       },
       "Metadata": {
         "aws:cdk:path": "ide/CDKMetadata/Default"
